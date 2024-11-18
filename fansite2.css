@@ -1,0 +1,232 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: #ffffff;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+.hero {
+    text-align: center;
+    padding: 30px;
+    background-color: #c1a884;
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.hero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.hero h1 {
+    font-size: 2em;
+    margin-top: 0;
+}
+
+.hero h2 {
+    font-size: 2em;
+    margin-top: 0;
+}
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: 30px 0;
+}
+
+.carousel {
+    display: flex;
+    gap: 20px;
+    animation: slide 20s infinite;
+}
+.carousel-item {
+    min-width: 250px;
+    flex: 0 0 auto;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.carousel-item img {
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    object-fit: cover;
+    object-position: center;
+}
+@keyframes slide {
+    0% { transform: translateX(0); }
+    20% { transform: translateX(-25%); }
+    40% { transform: translateX(-50%); }
+    60% { transform: translateX(-75%); }
+    80% { transform: translateX(-100%); }
+    100% { transform: translateX(0); }
+}
+.content {
+    line-height: 1.8;
+    font-size: 1.2em;
+    color: #34495e;
+}
+.content p {
+    margin-bottom: 20px;
+}
+.highlight {
+    background: #a3a3a3;
+    padding: 5px 10px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.fun-facts {
+    background-color: #e2bb90;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 15px;
+}
+.fun-facts h3 {
+    color: #c36f1b;
+    margin-bottom: 15px;
+}
+.fun-facts ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+.realisation {
+    background-color: #f0e0d0;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 15px;
+}
+.realisation h3 {
+    color: #e39a4a;
+    margin-bottom: 15px;
+}
+.heritage {
+    background-color: #f4e7e1;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 15px;
+}
+.heritage h3 {
+    color: #6b4131;
+    margin-bottom: 15px;
+}
+.useful-links {
+    margin: 30px 0;
+    text-align: center;
+}
+.useful-links a {
+    color: #856045;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+}
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 30px;
+    background-color: #d4bc9a;
+    color: #ecf0f1;
+    border-radius: 20px;
+}
+button {
+    padding: 10px 15px;
+    font-size: 1em;
+    background-color: #856045;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #6b4131;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    text-align: center;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom:10px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.footer-links a:hover {
+    color: #e09b54;
+}
+
+.copyleft {
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.copyleft a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.copyleft a:hover {
+    color: #e09b54;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+  
+.fa:hover {
+    opacity: 0.7;
+}
+  
+.fa-facebook, .fa-twitter, .fa-instagram {
+    background: #e09b54;
+    color: white;
+}

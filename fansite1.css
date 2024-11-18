@@ -1,0 +1,154 @@
+/* Global styles */
+body {
+    background-color: #808080; /* Gris pour le fond */
+    color: white; /* Texte en blanc */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for the page */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: #7D4B2E; /* Marron pour les titres */
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header p {
+    color: #fff;
+    font-size: 1.2em;
+}
+
+/* Biographie */
+.bio {
+    margin-bottom: 40px;
+}
+
+.bio h2 {
+    color: #7D4B2E; /* Marron pour le titre */
+    font-size: 2em;
+}
+
+.bio p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Inventions section */
+.inventions h2 {
+    color: #7D4B2E; /* Marron pour le titre */
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.invention {
+    margin-bottom: 20px;
+}
+
+.invention h3 {
+    color: #7D4B2E; /* Marron pour les sous-titres */
+    font-size: 1.6em;
+}
+
+.invention p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Photo section */
+.photo {
+    text-align: center;
+}
+
+.photo h2 {
+    color: #7D4B2E; /* Marron pour le titre */
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.photo img {
+    width: 50%;
+    max-width: 400px;
+    border-radius: 8px;
+    border: 3px solid #7D4B2E; /* Bordure marron autour de l'image */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    text-align: center;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom:10px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.footer-links a:hover {
+    color: #e09b54;
+}
+
+.copyleft {
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.copyleft a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.copyleft a:hover {
+    color: #e09b54;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+  
+.fa:hover {
+    opacity: 0.7;
+}
+  
+.fa-facebook, .fa-twitter, .fa-instagram {
+    background: #e09b54;
+    color: white;
+}
