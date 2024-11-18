@@ -1,0 +1,92 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.profiles {
+    width: 100%;
+    max-width: 1200px;
+}
+
+.profile-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    margin: 40px 0;
+    width: 55%; 
+}
+
+.profile-right {
+    margin-left: auto; /* Place à droite */
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-info {
+    max-width: 800px;
+}
+
+.profile-info h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.profile-info p {
+    margin: 10px 0;
+    color: #666;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 1em;
+    background-color: #856045;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #6b4131;
+}
+
+.creation {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.creation-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.creation-img:hover {
+    transform: scale(1.2); 
+}
